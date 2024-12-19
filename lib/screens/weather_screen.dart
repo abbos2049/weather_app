@@ -55,7 +55,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
       appBar: AppBar(
         title: Text(
           "Weather in $_city",
-          style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+          style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold,  color: Colors.white,),
         ),
         backgroundColor: Colors.blueAccent,
       ),
